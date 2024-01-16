@@ -34,7 +34,7 @@ By using the provided HTML and image file, create a CSS layout as shown below:
 ```
 **generate this layout:**
 
-![html-css-js](/hcj.png)
+![html-css-js](/README-img/hcj.png)
 
 ### Layout
 
@@ -65,7 +65,7 @@ By using the provided HTML, create a CSS layout where the underline is hidden by
 ```
 **generate this layout:**
 
-![holb](/holb.gif)
+![holb](/README-img/holb.gif)
 
 ### Layout
 
@@ -102,11 +102,11 @@ By using the provided HTML, create a CSS layout where the `<input>` has a custom
 generate this layout:
 **Checked:**
 
-![checked](/checked.png)
+![checked](/README-img/checked.png)
 
 **Unchecked:**
 
-![unchecked](/unchecked.png)
+![unchecked](/README-img/unchecked.png)
 
 ### Layout
 
@@ -149,7 +149,7 @@ By using the provided HTML, create a CSS layout/animation for the menu:
 
 **generate this layout:**
 
-![hamb](/menu.gif)
+![hamb](/README-img/menu.gif)
 
 ### Layout/Animation
 
