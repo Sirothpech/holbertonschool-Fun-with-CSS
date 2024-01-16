@@ -1,0 +1,66 @@
+/* 2-styles.css */
+
+input[type="checkbox"] {
+    display: none;
+}
+
+
+.toggle-label {
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    width: 75px;
+    height: 30px;
+}
+
+.toggle-inner {
+    position: absolute;
+    width: 75px;
+    height: 25px;
+    border: 1px solid gray;
+    background-color: #dcdcdc;
+    border-radius: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.toggle-switch {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: white;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.6s ease-in-out;
+    right: 50px;
+}
+
+.toggle-inner::after {
+    content: 'No';
+    right: 15px;
+    position: absolute;
+    color: gray;
+    font-size: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: opacity 0.3s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type='checkbox']:checked + .toggle-label .toggle-inner {
+    background-color: red;
+}
+
+input[type='checkbox']:checked + .toggle-label .toggle-switch {
+    right: 0;
+}
+
+input[type='checkbox']:checked + .toggle-label .toggle-inner::after {
+    content: 'Yes';
+    left: 15px;
+    color: white;
+    opacity: 1;
+}
